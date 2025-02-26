@@ -1,0 +1,95 @@
+outputs:
+- format: go
+  package: main
+  path: ../go/tunlr
+translations:
+  ClientUsage:
+    ar: قم بتشغيل عميل Tunlr وكشف الأهداف المحلية عبر خادم Tunlr.
+    context: Usage for client command
+    de: Führen Sie den Tunlr-Client aus und stellen Sie lokale Ziele über einen Tunlr-Server
+      bereit.
+    en: Run Tunlr client and expose local targets via a Tunlr server.
+    es: Ejecute el cliente Tunlr y exponga los objetivos locales a través de un servidor
+      Tunlr.
+    fr: Exécutez le client Tunlr et exposez les cibles locales via un serveur Tunlr.
+    hi: टनलर क्लाइंट चलाएं और टनलर सर्वर के माध्यम से स्थानीय लक्ष्यों को प्रदर्शित
+      करें।
+    ja: Tunlr クライアントを実行し、Tunlr サーバー経由でローカル ターゲットを公開します。
+    nl: Voer de Tunlr-client uit en stel lokale doelen bloot via een Tunlr-server.
+    pt: Execute o cliente Tunlr e exponha alvos locais por meio de um servidor Tunlr.
+    ru: Запустите клиент Tunlr и откройте локальные цели через сервер Tunlr.
+    zh: 运行 Tunlr 客户端并通过 Tunlr 服务器公开本地目标。
+  Description:
+    ar: عرض التطبيقات والخدمات بشكل آمن
+    context: App description
+    de: Apps und Dienste sicher verfügbar machen
+    en: Securely expose apps and services
+    es: Exponer aplicaciones y servicios de forma segura
+    fr: Exposez en toute sécurité les applications et les services
+    hi: ऐप्स और सेवाओं को सुरक्षित रूप से प्रदर्शित करें
+    ja: アプリとサービスを安全に公開する
+    nl: Apps en services veilig blootstellen
+    pt: Exponha aplicativos e serviços com segurança
+    ru: Безопасное предоставление доступа к приложениям и сервисам
+    zh: 安全地公开应用程序和服务
+  PasswordUsage:
+    ar: إنشاء تجزئة لكلمة المرور.
+    context: Usage for password command
+    de: Generieren Sie einen Hash für ein Passwort.
+    en: Generate a hash for a password.
+    es: Generar un hash para una contraseña.
+    fr: Générer un hachage pour un mot de passe.
+    hi: पासवर्ड के लिए हैश उत्पन्न करें.
+    ja: パスワードのハッシュを生成します。
+    nl: Genereer een hash voor een wachtwoord.
+    pt: Gere um hash para uma senha.
+    ru: Сгенерируйте хеш для пароля.
+    zh: 为密码生成哈希值。
+  ServerUsage:
+    ar: قم بتشغيل خادم Tunlr وعرض عملاء Tunlr باستخدام أسماء المضيفين من اسم المجال
+      المفوض.
+    context: Usage for server command
+    de: Führen Sie den Tunlr-Server aus und stellen Sie Tunlr-Clients mithilfe von
+      Hostnamen aus einem delegierten Domänennamen bereit.
+    en: Run Tunlr server and expose Tunlr clients using hostnames from a delegated
+      domain name.
+    es: Ejecute el servidor Tunlr y exponga los clientes Tunlr utilizando nombres
+      de host de un nombre de dominio delegado.
+    fr: Exécutez le serveur Tunlr et exposez les clients Tunlr à l’aide de noms d’hôtes
+      provenant d’un nom de domaine délégué.
+    hi: Tunlr सर्वर चलाएं और एक प्रत्यायोजित डोमेन नाम से होस्टनाम का उपयोग करके Tunlr
+      क्लाइंट को प्रदर्शित करें।
+    ja: Tunlr サーバーを実行し、委任されたドメイン名のホスト名を使用して Tunlr クライアントを公開します。
+    nl: Draai de Tunlr-server en maak Tunlr-clients beschikbaar met behulp van hostnamen
+      van een gedelegeerde domeinnaam.
+    pt: Execute o servidor Tunlr e exponha os clientes Tunlr usando nomes de host
+      de um nome de domínio delegado.
+    ru: Запустите сервер Tunlr и предоставьте доступ клиентам Tunlr, используя имена
+      хостов из делегированного доменного имени.
+    zh: 运行 Tunlr 服务器并使用来自委派域名的主机名公开 Tunlr 客户端。
+  TargetPlaceholder1:
+    ar: http://localhost:3000...
+    context: Usage for client target argument 1
+    de: http://localhost:3000...
+    en: http://localhost:3000...
+    es: http://localhost:3000...
+    fr: http://localhost:3000...
+    hi: http://localhost:3000...
+    ja: http://localhost:3000...
+    nl: http://localhost:3000...
+    pt: http://localhost:3000...
+    ru: http://localhost:3000...
+    zh: http://本地主机:3000...
+  TargetPlaceholder2:
+    ar: هوغو/عام...
+    context: Usage for client target argument 2
+    de: hugo/öffentlich...
+    en: hugo/public...
+    es: hugo/publico...
+    fr: hugo/public...
+    hi: ह्यूगो/पब्लिक...
+    ja: ヒューゴ/パブリック...
+    nl: hugo/publiek...
+    pt: hugo/público...
+    ru: хьюго/общественность...
+    zh: 雨果/公众……
