@@ -4,7 +4,7 @@
 
 **Latest Release Notes: [v2025.06](https://tunlr.dev/blog/whats-new-202506/)**
 
-[:speech_balloon: Discussions](https://github.com/candiddev/tunlr/discussions)\
+[:speech_balloon: Mailing Lists](https://tunlr.dev/docs/references/mailing-lists/)\
 [:book: Docs](https://tunlr.dev/docs/)\
 [:arrow_down: Download](https://tunlr.dev/docs/guides/install-tunlr/)\
 [:eyes: Open Source Details](https://candid.dev/open-source)
