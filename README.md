@@ -2,7 +2,7 @@
 
 > Distributed reverse proxy for dynamic environments
 
-**Latest Release Notes: [v2025.06](https://tunlr.dev/blog/whats-new-202506/)**
+**Latest Release Notes: [v2025.08](https://tunlr.dev/blog/whats-new-202508/)**
 
 [:speech_balloon: Mailing Lists](https://tunlr.dev/docs/references/mailing-lists/)\
 [:book: Docs](https://tunlr.dev/docs/)\
