@@ -9,9 +9,9 @@ title: Config
 
 ## Configuration Values
 
-{{% snippet "config_cli" tunlr %}}
+{{% snippet "config_cli" tunlr purple %}}
 
-{{% snippet config_key "client" %}}
+### `client` {#client}
 
 Configurations for Tunlr in client mode.
 
@@ -87,7 +87,7 @@ Targets is a map of target names to target configurations.  See [Guides > Client
 
 **Default:** `{}`
 
-### `client_targets_[target]_path` {#client_targets_path}
+#### `client_targets_[target]_path` {#client_targets_path}
 
 String, the path to the target.  Targets support these path types:
 
@@ -111,7 +111,7 @@ String, a username used for authenticating to a Tunlr server.
 
 {{% snippet config_licenseKey Tunlr %}}
 
-{{% snippet config_key "rpc" %}}
+### `rpc` {#rpc}
 
 {{% alert title="License Required" color="warning" %}}
 This requires a [Server License]({{< ref "/pricing" >}})
@@ -197,7 +197,7 @@ String, a base64 encoded string of the certificate authority used to establish m
 
 **Default:** `""`
 
-{{% snippet config_key "server" %}}
+### `server` {#server}
 
 {{% alert title="License Required" color="warning" %}}
 This requires a [Server License]({{< ref "/pricing" >}})
