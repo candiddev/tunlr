@@ -21,26 +21,24 @@ List of strings representing IPv4 and IPv6 networks that requests must originate
 
 **Default:** `[]`
 
-{{% snippet config_key "client_httpHeaderFilters" %}}
+{{% snippet config_key "client_httpHeaderRule " %}}
 
-A string representing HTTP header filters that must be present for a client request to be tunneled.  This check is performed on the Tunlr server, clients will never see requests that do not match these headers.
+String, an {{% expr %}} for evaluating HTTP Headers.  The object passed to it will be a `map[string][]string` of the HTTP header.  If the expression returns `true`, the traffic is allowed.  This check is performed on the Tunlr server, clients will never see requests that do not match these headers.
 
-The header format is a string containing boolean logic:
+An example header rule:
 
 ```json
 {
   "client": {
-    "httpHeaderFilters": [
-      "(Authorization='^Bearer .*$' && MySecretHeader) || Authorization=^Basic",
-    ],
+    "httpHeaderRule": "any(Authorization, {# matches \"^Bearer .*$\"}) || any(MyHeader, {# == \"secret\"})"
   }
 }
 ```
 
 In this example, the request must match one of these conditions:
 
-- Contain the header `Authorization` with a value that starts with `Bearer `, and contain the header `MySecretHeader` with any value.
-- Contain the header `Authorization` with a value that starts with `Basic`.
+- Contain the header `Authorization` with a value that starts with `Bearer `.
+- Contain the header `MyHeader` with a value that equals `secret`.
 
 **Default:** `[]`
 

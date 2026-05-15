@@ -85,7 +85,7 @@ tunlr -x client_hostname=helloworld client http://localhost:3000
 
 ### Restrict Tunnel Access
 
-Tunlr can be configured to restrict tunnel access to only certain IP addresses (via {{% config client_allowedNetworks %}}) or for requests that have specific headers (via {{% config client_httpHeaderFilters %}}):
+Tunlr can be configured to restrict tunnel access to only certain IP addresses (via {{% config client_allowedNetworks %}}) or for requests that have specific headers (via {{% config client_httpHeaderRule %}}):
 
 ```bash
 tunlr -x client_allowedNetworks=192.168.0.0/16 client http://localhost:3000
