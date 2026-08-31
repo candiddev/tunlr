@@ -14,6 +14,7 @@ translations:
     fr: Exécutez le client Tunlr et exposez les cibles locales via un serveur Tunlr.
     hi: टनलर क्लाइंट चलाएं और टनलर सर्वर के माध्यम से स्थानीय लक्ष्यों को प्रदर्शित
       करें।
+    it: Avvia il client Tunlr ed esponi i target locali tramite un server Tunlr.
     ja: Tunlr クライアントを実行し、Tunlr サーバー経由でローカル ターゲットを公開します。
     nl: Voer de Tunlr-client uit en stel lokale doelen bloot via een Tunlr-server.
     pl: Uruchom klienta Tunlr i udostępnij lokalne cele za pośrednictwem serwera Tunlr.
@@ -28,6 +29,7 @@ translations:
     es: Exponer aplicaciones y servicios de forma segura
     fr: Exposez en toute sécurité les applications et les services
     hi: ऐप्स और सेवाओं को सुरक्षित रूप से प्रदर्शित करें
+    it: Esporre in modo sicuro app e servizi
     ja: アプリとサービスを安全に公開する
     nl: Apps en services veilig blootstellen
     pl: Bezpieczne udostępnianie aplikacji i usług
@@ -42,6 +44,7 @@ translations:
     es: Generar un hash para una contraseña.
     fr: Générer un hachage pour un mot de passe.
     hi: पासवर्ड के लिए हैश उत्पन्न करें.
+    it: Genera un hash per una password.
     ja: パスワードのハッシュを生成します。
     nl: Genereer een hash voor een wachtwoord.
     pl: Wygeneruj skrót dla hasła.
@@ -62,6 +65,8 @@ translations:
       provenant d’un nom de domaine délégué.
     hi: Tunlr सर्वर चलाएं और एक प्रत्यायोजित डोमेन नाम से होस्टनाम का उपयोग करके Tunlr
       क्लाइंट को प्रदर्शित करें।
+    it: Avvia il server Tunlr ed esponi i client Tunlr utilizzando i nomi host di
+      un nome di dominio delegato.
     ja: Tunlr サーバーを実行し、委任されたドメイン名のホスト名を使用して Tunlr クライアントを公開します。
     nl: Draai de Tunlr-server en maak Tunlr-clients beschikbaar met behulp van hostnamen
       van een gedelegeerde domeinnaam.
@@ -80,6 +85,7 @@ translations:
     es: http://localhost:3000...
     fr: http://localhost:3000...
     hi: http://localhost:3000...
+    it: http://localhost:3000...
     ja: http://localhost:3000...
     nl: http://localhost:3000...
     pl: http://localhost:3000...
@@ -94,6 +100,7 @@ translations:
     es: hugo/publico...
     fr: hugo/public...
     hi: ह्यूगो/पब्लिक...
+    it: Hugo/pubblico...
     ja: ヒューゴ/パブリック...
     nl: hugo/publiek...
     pl: hugo/public...
